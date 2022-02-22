@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="5dp"
+    >
+<LinearLayout
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corner_bg"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/teal_700"
+        android:weightSum="6">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/hospital"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/centerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="CHC JAHANABAD"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:maxLines="1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_info" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="2dp"
+        android:background="@color/grey"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/location"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Location"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/centerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:text="JAHANABAD BAKEWAR"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="2dp"
+        android:background="@color/grey"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/clock"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Timing"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:padding="4dp"/>
+        <TextView
+            android:id="@+id/centerTiming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:text="TIME 16:00:00 To 23:00:00"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="2dp"
+        android:background="@color/grey"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/rupee"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Fee Type"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:padding="4dp"/>
+        <TextView
+            android:id="@+id/centerFeeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:text="Fee Type: FREE"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

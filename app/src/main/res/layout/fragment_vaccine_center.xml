@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.VaccineCenterFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/teal_700"
+                android:fontFamily="serif"
+                android:text="Vaccine Center and Availability"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/round_corner_bg"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:src="@drawable/zipcode"
+                    android:tint="@color/teal_700"
+                    tools:ignore="UseAppTint" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/purple_700" />
+
+                <EditText
+                    android:id="@+id/pinCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Enter PinCode"
+                    android:inputType="number"
+                    android:padding="14dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/round_corner_bg"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:src="@drawable/caldr"
+                    android:tint="@color/teal_700"
+                    tools:ignore="UseAppTint"/>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/purple_700" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="Enter Date for slots"
+                    android:inputType="text"
+                    android:padding="14dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_corner_bg"
+                android:padding="0dp"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
+
