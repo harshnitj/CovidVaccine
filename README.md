@@ -1,5 +1,5 @@
-# Vaccine Centers and Certificate app.
-# App is consuming Cowin Public REST Apis
+# <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px>  Vaccine Centers and Certificate app.
+# <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">  App is consuming Cowin Public REST Apis
 ![screenshot_1](https://user-images.githubusercontent.com/97426451/155087224-f005acc9-fa5f-49ec-ab23-95ba3e0101ef.png)
 ![screenshot_2](https://user-images.githubusercontent.com/97426451/155087234-26ba0b54-1d92-4b89-a114-8f008e09b420.png)
 ![screenshot_3](https://user-images.githubusercontent.com/97426451/155087243-be33e708-8719-4f46-8165-b81fbd368d1b.png)
